@@ -49,7 +49,7 @@ myWebSocket.onmessage = (ev) => {
     }
     if (serverResponse.type = "privateChat") {
         if (serverResponse.targetUser == name) {
-            messagesSection.innerHTML += `${serverResponse.sender} (Private Char) : ${serverResponse.value}\n`;
+            messagesSection.innerHTML += `${serverResponse.sender} (Private Chat) : ${serverResponse.value}\n`;
         }
     }
 
